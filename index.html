@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .video-container {
+            max-width: 70%;
+            max-height: 50vh; /* Adjust the max-height as needed */
+        }
+        @media (max-width: 768px) {
+            .video-container {
+                max-height: 30vh;
+            }
+        }
+        .website-link {
+            margin-top: 15%;
+            text-align: center;
+           
+        }
+        .website-link a{
+            color: white;
+        }
+        .website-link button {
+            padding: 15px 30px;
+            border-radius: 30px;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.8);
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="intro">
+        <div class="video-container">
+            <video controls src="video/WhatsApp Video 2023-08-21 at 11.20.05 AM.mp4" width="100%" height="auto"></video>
+        </div>
+        <div class="website-link">
+            <button type="button" class="btn btn-dark"> <a href="https://technocrats-den.jimdosite.com">Click here to visit our website</a></button>
+            
+        </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
